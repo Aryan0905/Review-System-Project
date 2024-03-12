@@ -2,7 +2,7 @@
 
 # Employee-Review-System
 A full stack, app used for reviewing employee.
-Hoisted Link : [Aryan gupta](https://soumyasri7978-github-io-project.onrender.com/users/sign-in)
+
 
 
 ### Description
@@ -23,10 +23,11 @@ Node , Express, Mongodb , EJS , javaScript , html, css
   3. Navigate to Project Directory.
 
 After reaching the project directory you have to run the following the command.
-   ```` 
+
+   ```
         npm install 
         npm start || nodemon index.js
-   ````
+   ```
 
 #### If you want to make an employee as admin then use the secret key : happy.
 
