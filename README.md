@@ -2,7 +2,7 @@
 
 # Employee-Review-System
 A full stack, app used for reviewing employee.
-Hoisted Link :https://soumyasri7978-github-io-project.onrender.com/users/sign-in
+Hoisted Link : [Aryan gupta](https://soumyasri7978-github-io-project.onrender.com/users/sign-in)
 
 
 ### Description
@@ -35,21 +35,19 @@ After reaching the project directory you have to run the following the command.
   You can review the employees. The admin has the special power to assing, the task to employee, remove the employee, add new admin, and also employee;
   
   
-  # HomePage / Admin View
+  ### HomePage / Admin View
 
-  # Home page / Employee view
+  ### Home page / Employee view
 
+  ### Sign-Up
+
+  ### Sign-In
+
+  ### Forget Password
   
-  # Sign-Up
+  ### Assign Task
 
-
-  # Sign-In
-
-  # Forget Password
-  
-  # Assign Task
-
-  # Employee List
+  ### Employee List
   
 
   
@@ -58,44 +56,50 @@ After reaching the project directory you have to run the following the command.
 
 ```
 Employee Review System
-    |
-    |               |--->css
-    |--->assets---->|--->images
-    |             
-    |
-    |               |--->flashMiddleware.js
-    |--->config---->|--->mongoose.js
-    |               |--->passport-local-Stradegy.js
-    |
-    |                  |-->admin_controller.js
-    |--->controllers-->|-->home_controller.js
-    |                  |-->review_controller.js
-    |                  |-->user_controller.js
-    |
-    |               |-->review.js
-    |--->models---->|
-    |               |-->user.js
-    |
-    |              
-    |               |-->admin.js
-    |--->routes---->|-->index.js
-    |               |-->review.js
-    |               |-->user.js
-    |
-    |              |--->_header.ejs
-    |              |---> addEmployee.ejs
-    |              |---> admin.ejs
-    |              |---> employe.ejs
-    |--->views---->|--->forget_password.ejs
-    |              |--->home.ejs
-    |              |--->layout.ejs
-    |              |--->sign_in.ejs
-    |              |--->sign_up.ejs
-    |
-    |-->node_modules
-    |-->.gitignore
-    |--> index.js
-    |--> package-lock.json
-    |-->package.json
+.
+├── README.md
+├── assets
+│   ├── css
+│   │   ├── admin.css
+│   │   ├── footer.css
+│   │   ├── header.css
+│   │   ├── home.css
+│   │   └── sign.css
+│   └── images
+│       ├── logo.png
+│       ├── profile.jpg
+│       ├── rating.webp
+│       └── signBack.jpg
+├── config
+│   ├── flashMiddleware.js
+│   ├── mongoose.js
+│   └── passport-local.js
+├── controllers
+│   ├── admin_controller.js
+│   ├── home_controller.js
+│   ├── review_controller.js
+│   └── user_controller.js
+├── index.js
+├── models
+│   ├── review.js
+│   └── user.js
+├── package-lock.json
+├── package.json
+├── routes
+│   ├── admin.js
+│   ├── index.js
+│   ├── reviews.js
+│   └── users.js
+└── views
+    ├── _footer.ejs
+    ├── _header.ejs
+    ├── addEmployee.ejs
+    ├── admin.ejs
+    ├── employee.ejs
+    ├── forget_password.ejs
+    ├── home.ejs
+    ├── layout.ejs
+    ├── sign_in.ejs
+    └── sign_up.ejs
     
     ````
